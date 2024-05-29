@@ -1,0 +1,21 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(sansation_light.woff);
+ }
+
+*{
+    font-family: myFirstFont;
+}
+
+.img-center{
+    display: flex;
+    justify-content: center;
+}
+
+body {
+    background-image: url("../static/img/test.png");
+}
+
+h1{
+    text-align: center;
+}
